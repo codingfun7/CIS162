@@ -1,54 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <link href="grid.css" rel="stylesheet" />
-    <title>Ruth's flowers</title>
-<form action="results.html" method="GET" enctype="multipart/form-data">
-    <link rel="stylesheet" type="text/css" href="grids.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form</title>
+</head>
 
-</body>  
-    <div>
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" required>
-  </div>
-  <div>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" required>
-  </div>
-  <div>
-    <label for="age">Age</label>
-    <input type="number" name="age" id="age" min="1" max="200" step="5">
-  </div>
-  <div>
-    <label for="date">Birthdate</label>
-    <input type="date" name="date" id="date" min="2019-06-10">
-  </div>
-  
-  <div>
-    Gender
-    <div>
-      <label for="male">Male</label>
-      <input type="radio" name="gender" id="male" value="male">
-    </div>
-    <div>
-      <label for="female">Female</label>
-      <input type="radio" name="gender" id="female" value="female">
-    </div>
-  </div>
-    <div>
-    <label for="phone">Phone</label>
-    <input type="tel" name="phone" id="phone">
-  </div>
-  
-  
-  <div>
-    <label>
-      Password
-      <input type="password" name="password" required>
-    </label>
-  </div>
-  <button type="reset">Reset</button>
-  <button type="submit">Submit</button>
-</form>
-      
+<body>
+	<h1>Ruth's Flowers Form</h1>
+	<p>
+	<label for="first_name">First Name:</label>
+	<input type="text id="first_name" name="
+	first_name" placeholder="Lolita">
+
+	<br></br>
+
+	<label for="last_name">Last Name:</label>
+	<input type="text id="last_name" name="
+	last_name" placeholder="Smith">
+
+	<br></br>
+
+	<label for="title">Title:</label>
+
+	<label for="Mr.">Mr.</label>
+	<input type="radio" value="Mr." id="Mr." name="title">
+
+	<label for="Mr.">Mrs.</label>
+	<input type="radio" value="Mrs." id="Mrs." name="title">
+
+	<label for="Mr.">Miss.</label>
+	<input type="radio" value="Miss." id="Miss." name="title">
+
+	<label for="Mr.">phD.</label>
+	<input type="radio" value="phD." id="phD." name="title">
+
+	<br></br>
+
+	<label for="birthday">Birthday:</label>
+	<input type="date="Birthday" name="
+	birthday" placeholder="2/1/1945">
+
+	<br></br>
+
+	<label for="payment">Payment:</label>
+	<select id="payment">
+		<option value="visa">Visa</option>
+		<option value="mastercard">Mastercard</option>
+		<option value="girftcard">Gift Card</option>
+		<option value="check">Check</option>
+	</select>
+
+	<br></br>
+
+	<label for="email">Email:</label>
+	<input type="email="email" name="
+	email" placeholder="lolitasmith@gmail.com">
+
+	<br></br>
+
+	<label for="phone">Phone:</label>
+	<input type="tel" id="phone" name="phone" placeholder="(562)555-1234">
+
+
+	<br></br>
+
+	<label for="slider">Rate Us:</label>
+	1<input type="range" step="25" value="100">5
+	<br></br>
+
+	<label for="subscribe">Subscribe:</label>
+	<input type="checkbox" id="subscribe" name="subscribe">
+	<br></br>
+
+	<label for="pass">Password:</label>
+	<input type="password" id="pass" name="pass">maxlength="12"
+	max 12 characters
+
+	<br></br>
+
+	<input type="Reset">
+	<br></br>
+
+	<input type="Submit">
+	<br></br>
+	</form>
+</p>
+	
+</body>
+</html>
